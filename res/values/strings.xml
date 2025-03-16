@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart City Pulse</string>
+
+    <!-- Login & Registration -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="register_as">Register as:</string>
+    <string name="citizen">Citizen</string>
+    <string name="officer">Officer</string>
+
+    <!-- Dashboard -->
+    <string name="welcome">Welcome</string>
+    <string name="new_complaint">New Complaint</string>
+    <string name="track_complaint">Track Complaint</string>
+    <string name="give_feedback">Give Feedback</string>
+    <string name="emergency_numbers">Emergency Numbers</string>
+    <string name="recent_complaints">Recent Complaints</string>
+    <string name="logout">Logout</string>
+
+    <!-- Complaints -->
+    <string name="complaint_title">Complaint Title</string>
+    <string name="complaint_description">Description</string>
+    <string name="complaint_location">Location</string>
+    <string name="complaint_category">Category</string>
+    <string name="submit_complaint">Submit Complaint</string>
+    <string name="attach_photo">Attach Photo</string>
+    <string name="attach_location">Attach Location</string>
+    <string name="complaint_status">Status</string>
+    <string name="complaint_date">Date</string>
+
+    <!-- Feedback -->
+    <string name="service_feedback">Service Feedback</string>
+    <string name="select_service">Select Service Type</string>
+    <string name="rate_experience">Rate Your Experience</string>
+    <string name="your_comments">Your Comments</string>
+    <string name="submit_feedback">Submit Feedback</string>
+
+    <!-- Emergency Numbers -->
+    <string name="emergency_contacts">Emergency Contact Numbers</string>
+    <string name="tap_to_call">Tap on call button to dial the number</string>
+    <string name="police">Police Control Room</string>
+    <string name="fire">Fire Emergency</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="women_helpline">Women Helpline</string>
+    <string name="child_helpline">Child Helpline</string>
+    <string name="disaster">Disaster Management</string>
+    <string name="municipal">Municipal Services</string>
+
+    <!-- Status Messages -->
+    <string name="status_pending">Pending</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_resolved">Resolved</string>
+    <string name="status_rejected">Rejected</string>
+
+    <!-- Error Messages -->
+    <string name="error_fill_fields">Please fill in all fields</string>
+    <string name="error_passwords_not_match">Passwords do not match</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_invalid_phone">Please enter a valid phone number</string>
+    <string name="error_email_exists">Email already registered</string>
+    <string name="error_login_failed">Invalid email or password</string>
+    <string name="error_registration_failed">Registration failed</string>
+    <string name="error_submission_failed">Submission failed</string>
+    <string name="error_unable_to_call">Unable to make call</string>
+
+    <!-- Success Messages -->
+    <string name="success_registration">Registration successful</string>
+    <string name="success_complaint">Complaint submitted successfully</string>
+    <string name="success_feedback">Feedback submitted successfully</string>
+</resources>
