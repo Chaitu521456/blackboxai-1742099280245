@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="General Settings"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:key="notifications_enabled"
+            android:title="Notifications"
+            android:summary="Enable or disable notifications"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            android:key="app_language"
+            android:title="Language"
+            android:summary="Select app language"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:defaultValue="en"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            android:key="app_theme"
+            android:title="Theme"
+            android:summary="Select app theme"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="light"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Notification Settings"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:key="complaint_updates"
+            android:title="Complaint Updates"
+            android:summary="Get notified about complaint status changes"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreference
+            android:key="feedback_responses"
+            android:title="Feedback Responses"
+            android:summary="Get notified about responses to your feedback"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreference
+            android:key="emergency_alerts"
+            android:title="Emergency Alerts"
+            android:summary="Receive emergency notifications"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Privacy &amp; Security"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:key="location_enabled"
+            android:title="Location Services"
+            android:summary="Enable location for better service"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false"/>
+
+        <Preference
+            android:key="privacy_policy"
+            android:title="Privacy Policy"
+            android:summary="Read our privacy policy"
+            app:iconSpaceReserved="false"/>
+
+        <Preference
+            android:key="clear_data"
+            android:title="Clear App Data"
+            android:summary="Clear all app data and reset preferences"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="About"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="about"
+            android:title="About Smart City Pulse"
+            android:summary="Learn more about the app"
+            app:iconSpaceReserved="false"/>
+
+        <Preference
+            android:key="rate_app"
+            android:title="Rate App"
+            android:summary="Rate us on Google Play"
+            app:iconSpaceReserved="false"/>
+
+        <Preference
+            android:key="feedback"
+            android:title="Send Feedback"
+            android:summary="Help us improve the app"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
