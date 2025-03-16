@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/sort_date_newest"
+                android:title="Date (Newest First)"/>
+            <item
+                android:id="@+id/sort_date_oldest"
+                android:title="Date (Oldest First)"/>
+            <item
+                android:id="@+id/sort_rating_highest"
+                android:title="Rating (Highest First)"/>
+            <item
+                android:id="@+id/sort_rating_lowest"
+                android:title="Rating (Lowest First)"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Filter"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/filter_all"
+                    android:checked="true"
+                    android:title="All Services"/>
+                <item
+                    android:id="@+id/filter_water"
+                    android:title="Water Supply"/>
+                <item
+                    android:id="@+id/filter_electricity"
+                    android:title="Electricity"/>
+                <item
+                    android:id="@+id/filter_roads"
+                    android:title="Roads"/>
+                <item
+                    android:id="@+id/filter_sanitation"
+                    android:title="Sanitation"/>
+                <item
+                    android:id="@+id/filter_transport"
+                    android:title="Public Transport"/>
+                <item
+                    android:id="@+id/filter_parks"
+                    android:title="Parks and Recreation"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_rating_distribution"
+        android:icon="@android:drawable/ic_menu_report_image"
+        android:title="Rating Distribution"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_export"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Export Feedback"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_statistics"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Service Statistics"
+        app:showAsAction="never"/>
+
+</menu>
