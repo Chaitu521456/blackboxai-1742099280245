@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#FFC107</color>
+    
+    <!-- Status Colors -->
+    <color name="statusPending">#757575</color>
+    <color name="statusInProgress">#2196F3</color>
+    <color name="statusResolved">#4CAF50</color>
+    <color name="statusRejected">#F44336</color>
+    
+    <!-- Common Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="lightGray">#E0E0E0</color>
+    <color name="darkGray">#757575</color>
+    
+    <!-- Background Colors -->
+    <color name="screenBackground">#F5F5F5</color>
+    <color name="cardBackground">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="textHint">#9E9E9E</color>
+    
+    <!-- Button Colors -->
+    <color name="buttonNormal">#1976D2</color>
+    <color name="buttonPressed">#1565C0</color>
+    <color name="buttonDisabled">#BDBDBD</color>
+    
+    <!-- Emergency Colors -->
+    <color name="emergency">#F44336</color>
+    <color name="warning">#FF9800</color>
+    <color name="success">#4CAF50</color>
+</resources>
