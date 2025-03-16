@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Language Settings -->
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Hindi</item>
+        <item>Chinese</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>hi</item>
+        <item>zh</item>
+    </string-array>
+
+    <!-- Theme Settings -->
+    <string-array name="theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System Default</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>system</item>
+    </string-array>
+
+    <!-- Complaint Categories -->
+    <string-array name="complaint_categories">
+        <item>Water Supply</item>
+        <item>Electricity</item>
+        <item>Roads</item>
+        <item>Sanitation</item>
+        <item>Public Transport</item>
+        <item>Parks and Recreation</item>
+        <item>Street Lighting</item>
+        <item>Garbage Collection</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- Complaint Status -->
+    <string-array name="complaint_status">
+        <item>Pending</item>
+        <item>In Progress</item>
+        <item>Resolved</item>
+        <item>Rejected</item>
+    </string-array>
+
+    <!-- Service Types -->
+    <string-array name="service_types">
+        <item>Water Supply</item>
+        <item>Electricity</item>
+        <item>Roads</item>
+        <item>Sanitation</item>
+        <item>Public Transport</item>
+        <item>Parks and Recreation</item>
+    </string-array>
+
+    <!-- Rating Labels -->
+    <string-array name="rating_labels">
+        <item>Very Poor</item>
+        <item>Poor</item>
+        <item>Average</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+
+    <!-- Sort Options -->
+    <string-array name="sort_options">
+        <item>Date (Newest First)</item>
+        <item>Date (Oldest First)</item>
+        <item>Status</item>
+        <item>Category</item>
+    </string-array>
+
+    <!-- Filter Options -->
+    <string-array name="filter_options">
+        <item>All</item>
+        <item>Pending</item>
+        <item>In Progress</item>
+        <item>Resolved</item>
+        <item>Rejected</item>
+    </string-array>
+
+    <!-- Time Periods -->
+    <string-array name="time_periods">
+        <item>Today</item>
+        <item>This Week</item>
+        <item>This Month</item>
+        <item>This Year</item>
+        <item>All Time</item>
+    </string-array>
+
+    <!-- Report Types -->
+    <string-array name="report_types">
+        <item>Complaints Summary</item>
+        <item>Feedback Analysis</item>
+        <item>Service Performance</item>
+        <item>Response Time Analysis</item>
+    </string-array>
+
+    <!-- Export Formats -->
+    <string-array name="export_formats">
+        <item>PDF</item>
+        <item>Excel</item>
+        <item>CSV</item>
+    </string-array>
+</resources>
